@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 Thread priority", "5 Thread priority\5 Thread priority.csproj", "{0A5D96B4-177D-4776-AA97-39763DC27EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 Foreground and background threads", "6 Foreground and background threads\6 Foreground and background threads.csproj", "{BF8887E9-512E-4DC2-AB7F-344B763B3C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 Passing parameters to a thread", "7 Passing parameters to a thread\7 Passing parameters to a thread.csproj", "{F53123CA-E294-46C9-B9DD-0F89E5A9E5A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8 Locking with a Csharp lock keyword", "8 Locking with a Csharp lock keyword\8 Locking with a Csharp lock keyword.csproj", "{5AA76ABA-B1CD-4AF4-87A0-EBC6ACAB3B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9 Locking with a Monitor construct", "9 Locking with a Monitor construct\9 Locking with a Monitor construct.csproj", "{CD82F5E2-B88C-45CD-BA08-D5746A28F8F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0 Creating a thread", "0 Creating a thread\0 Creating a thread.csproj", "{A9C5578A-8C2F-4AE9-8B25-7F985E4C1A18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 Pausing a thread", "1 Pausing a thread\1 Pausing a thread.csproj", "{D5BCF84E-87B3-4792-9872-670172A8E862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 Making a thread wait", "2 Making a thread wait\2 Making a thread wait.csproj", "{E0BFDF99-8E79-4E29-8161-491F8D75A5B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 Aborting a thread", "3 Aborting a thread\3 Aborting a thread.csproj", "{ECC04AE6-E41F-4FE2-A3C4-5234F4D65ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 Determining a thread state", "4 Determining a thread state\4 Determining a thread state.csproj", "{2D52C92F-2BD8-41CA-989E-68DD3F13B7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p10 Handling exceptions", "p10 Handling exceptions\p10 Handling exceptions.csproj", "{E8F68617-3283-4F6D-A779-D02B17879628}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A5D96B4-177D-4776-AA97-39763DC27EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5D96B4-177D-4776-AA97-39763DC27EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5D96B4-177D-4776-AA97-39763DC27EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5D96B4-177D-4776-AA97-39763DC27EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8887E9-512E-4DC2-AB7F-344B763B3C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8887E9-512E-4DC2-AB7F-344B763B3C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8887E9-512E-4DC2-AB7F-344B763B3C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8887E9-512E-4DC2-AB7F-344B763B3C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53123CA-E294-46C9-B9DD-0F89E5A9E5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53123CA-E294-46C9-B9DD-0F89E5A9E5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53123CA-E294-46C9-B9DD-0F89E5A9E5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53123CA-E294-46C9-B9DD-0F89E5A9E5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA76ABA-B1CD-4AF4-87A0-EBC6ACAB3B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA76ABA-B1CD-4AF4-87A0-EBC6ACAB3B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA76ABA-B1CD-4AF4-87A0-EBC6ACAB3B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA76ABA-B1CD-4AF4-87A0-EBC6ACAB3B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD82F5E2-B88C-45CD-BA08-D5746A28F8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD82F5E2-B88C-45CD-BA08-D5746A28F8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD82F5E2-B88C-45CD-BA08-D5746A28F8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD82F5E2-B88C-45CD-BA08-D5746A28F8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C5578A-8C2F-4AE9-8B25-7F985E4C1A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C5578A-8C2F-4AE9-8B25-7F985E4C1A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C5578A-8C2F-4AE9-8B25-7F985E4C1A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C5578A-8C2F-4AE9-8B25-7F985E4C1A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BCF84E-87B3-4792-9872-670172A8E862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BCF84E-87B3-4792-9872-670172A8E862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BCF84E-87B3-4792-9872-670172A8E862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BCF84E-87B3-4792-9872-670172A8E862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0BFDF99-8E79-4E29-8161-491F8D75A5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BFDF99-8E79-4E29-8161-491F8D75A5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BFDF99-8E79-4E29-8161-491F8D75A5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BFDF99-8E79-4E29-8161-491F8D75A5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC04AE6-E41F-4FE2-A3C4-5234F4D65ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC04AE6-E41F-4FE2-A3C4-5234F4D65ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC04AE6-E41F-4FE2-A3C4-5234F4D65ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC04AE6-E41F-4FE2-A3C4-5234F4D65ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D52C92F-2BD8-41CA-989E-68DD3F13B7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D52C92F-2BD8-41CA-989E-68DD3F13B7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D52C92F-2BD8-41CA-989E-68DD3F13B7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D52C92F-2BD8-41CA-989E-68DD3F13B7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F68617-3283-4F6D-A779-D02B17879628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F68617-3283-4F6D-A779-D02B17879628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F68617-3283-4F6D-A779-D02B17879628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F68617-3283-4F6D-A779-D02B17879628}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {315B5551-584E-40AD-B2B1-32F59BA1F034}
+	EndGlobalSection
+EndGlobal
